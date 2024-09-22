@@ -1,0 +1,24 @@
+<h1>Doctor#index</h1>
+<div class="row">
+  <div class="col-lg-6">
+    <div id="appointments">
+      <% @appointments.each do |appointment| %>
+        <%= render appointment %>
+      <% end %>
+    </div>
+    <nav aria-label="Page navigation">
+      <ul id="pagination" class="pagination">
+        <li class="page-item disabled">
+          <button id="prevButton" class="page-link" type="button">Previous</button>
+        </li>
+        <li class="page-item">
+          <button id="nextButton" class="page-link" type="button">Next</button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="col-lg-6">
+    <input type="week" name="week" id="appointment-week" min="2023-W1" max="2025-w1" />
+    <div id="graph" />
+  </div>
+</div>

@@ -1,0 +1,21 @@
+
+<div class="d-flex gap-3 align-items-center mb-3">
+  <h1>Appointments</h1>
+  <%= link_to "New appointment", new_appointment_path, class: 'btn btn-primary' %>
+</div>
+
+<div id="appointments">
+  <% @appointments.each do |appointment| %>
+    <%= render appointment %>
+  <% end %>
+</div>
+<nav aria-label="Page navigation">
+  <ul id="pagination" class="pagination">
+    <li class="page-item disabled">
+      <button id="prevButton" class="page-link" type="button">Previous</button>
+    </li>
+    <li class="page-item">
+      <button id="nextButton" class="page-link" type="button">Next</button>
+    </li>
+  </ul>
+</nav>
