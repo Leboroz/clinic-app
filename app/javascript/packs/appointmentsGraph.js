@@ -1,7 +1,8 @@
 import * as d3 from "d3"
 
 
-// TODO: make graph start and end in weekController start and end properties
+// TODO: make graph start and end in weekController start and end properties.
+// TODO: Fix graph with so it fits the parent node.
 
 
 document.addEventListener('DOMContentLoaded', () => {
