@@ -21,6 +21,10 @@
 - [📝 License](#license)
 
 
+
+https://github.com/user-attachments/assets/701d8354-a174-4e8c-893c-b0ec1c48576d
+
+
 # 📖 Clinic APP <a name="about-project"></a>
 
 > Clinic app that allows users to create accounts as either a doctor or a receptionist and perform actions.
